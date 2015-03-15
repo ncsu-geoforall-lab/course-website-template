@@ -23,7 +23,10 @@ function build_page_rst {
 HEAD_FILE=head.html
 FOOT_FILE=foot.html
 
-OUTDIR="../git-and-github-workshop-pages"
+CURRDIR=`pwd`
+OUTDIR=../`basename $CURRDIR`-pages
+
+mkdir -p $OUTDIR
 
 # disable Jekyll which is not needed
 touch $OUTDIR/.nojekyll
