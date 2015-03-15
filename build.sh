@@ -23,8 +23,7 @@ function build_page_rst {
 HEAD_FILE=head.html
 FOOT_FILE=foot.html
 
-CURRDIR=`pwd`
-OUTDIR=../`basename $CURRDIR`-pages
+OUTDIR="build"
 
 mkdir -p $OUTDIR
 
