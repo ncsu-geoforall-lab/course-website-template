@@ -19,8 +19,9 @@ Authors
 
 Copyright 2013-2015 by
 
- * Vaclav Petras
- * Anna Petrasova
+ * Vaclav Petras, NCSU OSGeoREL
+ * Anna Petrasova, NCSU OSGeoREL
+
 
 License and use
 ---------------
