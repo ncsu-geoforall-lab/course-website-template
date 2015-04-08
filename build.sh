@@ -25,9 +25,14 @@ FOOT_FILE=foot.html
 
 OUTDIR="build"
 
-mkdir -p $OUTDIR
+if [ ! -d "$OUTDIR" ]; then
+    mkdir $OUTDIR
+    echo "Creating directory $OUTDIR automatically."
+    echo "If you are using GitHub pages to create publish the website,"
+    echo "you probably want to create this directory by a dedicated script."
+fi
 
-# disable Jekyll which is not needed
+# disable Jekyll which is not needed for out GitHub pages
 touch $OUTDIR/.nojekyll
 
 if [ ! -d "$OUTDIR" ]; then
