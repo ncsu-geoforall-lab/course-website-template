@@ -3,15 +3,15 @@ NCSU OSGeoREL Course Website Template
 
 To see template extending with additional functionality see:
 
-https://github.com/ncsu-osgeorel/geospatial-modeling-course
+https://github.com/ncsu-geoforall-lab/geospatial-modeling-course
 
 For different approach see:
 
-https://github.com/ncsu-osgeorel/grass-temporal-workshop
+https://github.com/ncsu-geoforall-lab/grass-temporal-workshop
 
 To learn about Git and GitHub, you can use:
 
-http://ncsu-osgeorel.github.io/git-and-github-workshop/
+http://ncsu-geoforall-lab.github.io/git-and-github-workshop/
 
 Requirements
 ------------
