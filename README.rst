@@ -1,4 +1,4 @@
-NCSU OSGeoREL Course Website Template
+NCSU GeoForAll Course Website Template
 =====================================
 
 To see template extending with additional functionality see:
@@ -43,7 +43,7 @@ The template is this repository are under CC BY-SA 4.0 license.
 
 https://creativecommons.org/licenses/by-sa/4.0/
 
-If you are not connected with NCSU OSGeoREL, please, consider changing
+If you are not connected with NCSU GeoForAll, please, consider changing
 the colors in some way, so you don't have completely same color schema
-as NCSU OSGeoREL websites. Although this is totally optional, it
+as NCSU GeoForAll websites. Although this is totally optional, it
 would be highly appreciated.
