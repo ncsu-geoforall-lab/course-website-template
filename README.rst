@@ -1,5 +1,5 @@
 NCSU GeoForAll Course Website Template
-=====================================
+======================================
 
 To see template extending with additional functionality see:
 
@@ -15,25 +15,30 @@ http://ncsu-geoforall-lab.github.io/git-and-github-workshop/
 
 Requirements
 ------------
-Pandoc when using rst files.
+
+Pandoc when using `.rst` files.
 
 How to use it
 -------------
+
 To build the pages, run ``./build.sh``. 
 This will create directory ``build`` on the repository root level.
 To preview the resulting website, open ``build/index.html``.
 
-Before publishing for the first time, run script ``get-gh-pages-branch.sh``.
-
-To publish the changes online, run script ``publish.sh``.
+The pages are published online through GitHub Pages (``gh-pages``
+branch). The build and publishing happens automatically using GitHub
+Actions (defined in ``.github/workflows/`` directory). To do the same
+in your new repository, you need to
+`set up Deploy key and a Secret <https://github.com/marketplace/actions/github-pages-action#1-add-ssh-deploy-key>`_
+for your repository.
 
 Authors
 -------
 
-Copyright 2013-2015 by
+Copyright 2013-2020 by
 
- * Vaclav Petras, NCSU OSGeoREL
- * Anna Petrasova, NCSU OSGeoREL
+* Vaclav Petras, NCSU GeoForAll Lab
+* Anna Petrasova, NCSU GeoForAll Lab
 
 
 License and use
